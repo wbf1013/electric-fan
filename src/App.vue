@@ -36,7 +36,7 @@ export default defineComponent({
       title: "夏日清凉小风扇",
       description: "除了没有风，什么都好！",
       adText: "🍉",
-      adImageLink,
+      adImageLink
     };
   },
   components: {
