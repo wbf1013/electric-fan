@@ -18,14 +18,12 @@
           >
         </el-button>
       </div>
-      <vue-about-me :copyright="copyright"></vue-about-me>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Fan from "./components/Fan.vue";
-import VueAboutMe from "vue-about-me/sfc";
 import { defineComponent } from "@vue/runtime-core";
 
 const adImageLink =
@@ -37,21 +35,12 @@ export default defineComponent({
     return {
       title: "夏日清凉小风扇",
       description: "除了没有风，什么都好！",
-      copyright: {
-        name: "Electric Fan",
-        repo: "electric-fan",
-        author: "YunYouJun",
-        logo: "emojione:watermelon",
-        link: adImageLink,
-      },
-
       adText: "🍉",
       adImageLink,
     };
   },
   components: {
-    Fan,
-    VueAboutMe,
+    Fan
   },
 });
 </script>
