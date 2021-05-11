@@ -29,7 +29,7 @@ import VueAboutMe from "vue-about-me/sfc";
 import { defineComponent } from "@vue/runtime-core";
 
 const adImageLink =
-  "https://upyun.yunyoujun.cn/images/aamic-m8v4o1.jpg";
+  "https://fan.faxiaosi.com/img/aamic-m8v4o1.jpg";
 
 export default defineComponent({
   name: "app",
