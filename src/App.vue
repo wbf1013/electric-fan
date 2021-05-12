@@ -18,6 +18,11 @@
           >
         </el-button>
       </div>
+      <div style="margin: 1rem">
+        <el-button>
+          <a href="https://ac.faxiaosi.com" target="_blank"><span class="animate-logo">便携小空调</span></a>
+        </el-button>
+      </div>
     </div>
   </div>
 </template>
